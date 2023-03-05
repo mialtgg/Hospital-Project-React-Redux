@@ -1,5 +1,5 @@
 # Hospital-Project-React-Redux
-##Technologies
+## Technologies
 Fake API for JSON Server<br/>
 Axios <br/>
 State management  for Redux
@@ -7,9 +7,11 @@ UI --> Meterial UI
 
 
 
-##Content
+## Content
 
 a-appointment list
 b-add appointment
 c- cancel the appointment
 d-appointment update
+
+### Netlify link :
