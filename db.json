@@ -1,0 +1,42 @@
+{
+    "randevular": [
+        {
+            "id": "1",
+            "date": "05.03.2023",
+            "hastaId": "1"
+        }
+    ],
+
+
+
+    "hastalar": [
+        {
+            "id":"1",
+            "name":"Ali ",
+            "surname":"Çelik",
+            "phone":"05645235462",
+            "işlemId":["1","2"]
+
+
+        }
+    ],
+    "işlemler" :[
+        {
+            "id":"1",
+            "sikayet":"grip",
+            "uygulananTedavi":"2 Gün istirhat tavsiye edildi",
+            "yazılanIlaclar":["parol,arveles,katarin"]
+        },
+        {
+            "id":"2",
+            "sikayet":"bel ağrısı",
+            "uygulananTedavi":"ayakta",
+            "yazılanIlaclar":["parol,voltaren"]
+        }
+    ]
+
+
+
+
+
+}
