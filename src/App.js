@@ -3,7 +3,9 @@ import React from "react";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Home from "./components/Home";
 import Hastalar from "./pages/hastalar";
-import hastaEkle from "./pages/hastaEkle";
+import Add from "./pages/Add";
+
+
 
 
 
@@ -15,7 +17,8 @@ function App() {
    <Routes>
     <Route path="/" element={<Home/>}></Route>
     <Route path="/Hastalar" element={<Hastalar/>}></Route>
-    <Route path="hasta-ekle" element={<hastaEkle/>}></Route>
+    <Route path="/hasta-ekle" element={<Add/>}></Route>
+   
    </Routes>
    </BrowserRouter>
   );
