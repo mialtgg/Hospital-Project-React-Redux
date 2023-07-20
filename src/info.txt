@@ -1,0 +1,33 @@
+Kullanılacak Teknolojiler:
+
+1.Fake API(Backend için) json server
+2.Yapılacak istekler için axios
+3.Sayfayı yenilemek için react-router-dom 6
+4.State manegemant (redux)
+5.UI material UI
+
+
+İş Kuralları (senaryo oluşturmaya yarar)
+
+-->İki sayfa bulunacak.
+  a-randevu listeleme
+  b-randevu ekleme
+  c-randevu iptal etme 
+  d-randevu güncelleme
+-->randevu  eklendiğinde hasta otomatik olarak oluşturulacak
+-->randevuda bulunacak bilgiler 
+   id,
+   date,
+   patientId,
+-->Hastada bulunacak bilgiler
+   name,
+   id,
+   surname,
+   phone,
+   işlemleer
+
+-->işlemler
+   şikayet,
+   id,
+   uygulanacakTedavi,
+   yazılanİlaçlar

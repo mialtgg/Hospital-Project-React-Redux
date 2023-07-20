@@ -1,0 +1,9 @@
+.menüLink{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    transition: all 0.2S linear;
+}
+.menüLink:hoover{
+    color: #fff;
+}
